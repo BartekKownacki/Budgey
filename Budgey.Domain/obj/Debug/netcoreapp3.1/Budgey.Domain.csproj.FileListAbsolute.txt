@@ -1,0 +1,9 @@
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\bin\Debug\netcoreapp3.1\Budgey.Domain.deps.json
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\bin\Debug\netcoreapp3.1\Budgey.Domain.dll
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\bin\Debug\netcoreapp3.1\Budgey.Domain.pdb
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\obj\Debug\netcoreapp3.1\Budgey.Domain.csprojAssemblyReference.cache
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\obj\Debug\netcoreapp3.1\Budgey.Domain.AssemblyInfoInputs.cache
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\obj\Debug\netcoreapp3.1\Budgey.Domain.AssemblyInfo.cs
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\obj\Debug\netcoreapp3.1\Budgey.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\obj\Debug\netcoreapp3.1\Budgey.Domain.dll
+C:\Users\bartek\Desktop\Budgey\Budgey.Domain\obj\Debug\netcoreapp3.1\Budgey.Domain.pdb
