@@ -428,8 +428,9 @@ C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.
 C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.csproj.CoreCompileInputs.cache
 C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Razor\Views\Budget\BudgetInfo.cshtml.g.cs
-C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Razor\Views\User\AllUsers.cshtml.g.cs
-C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Razor\Views\User\Details.cshtml.g.cs
-C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Razor\Views\Notes\AllNotes.cshtml.g.cs
-C:\Users\bartek\Desktop\Budgey\Budgey\obj\Debug\netcoreapp3.1\Razor\Views\Notes\Details.cshtml.g.cs
+C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\bartek\Desktop\Budgey\Budgey\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

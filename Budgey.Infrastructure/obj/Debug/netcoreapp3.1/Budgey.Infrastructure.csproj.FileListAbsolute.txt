@@ -6,7 +6,10 @@ C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\bin\Debug\netcoreapp3.1\Bud
 C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.csprojAssemblyReference.cache
 C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.AssemblyInfo.cs
-C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.csproj.CopyComplete
 C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.dll
 C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.pdb
+C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\bin\Debug\netcoreapp3.1\Budgey.Infrastructure.runtimeconfig.json
+C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\bin\Debug\netcoreapp3.1\Budgey.Infrastructure.runtimeconfig.dev.json
+C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.genruntimeconfig.cache
+C:\Users\bartek\Desktop\Budgey\Budgey.Infrastructure\obj\Debug\netcoreapp3.1\Budgey.Infrastructure.csproj.CoreCompileInputs.cache
