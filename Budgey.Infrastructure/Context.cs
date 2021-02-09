@@ -16,6 +16,7 @@ namespace Budgey.Infrastructure
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Domain.Model.Type> Types { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Note> Notes { get; set; }
         public Context(DbContextOptions options) : base(options)
         {
 
@@ -45,6 +46,11 @@ namespace Budgey.Infrastructure
                 .HasOne<User>(c => c.User)
                 .WithMany(u => u.ContactDetails)
                 .HasForeignKey(u => u.UserId);
+
+            builder.Entity<Note>()
+                .HasOne<User>(c => c.User)
+                .WithMany(u => u.Notes)
+                .HasForeignKey(n => n.UserId);
 
         }
     }

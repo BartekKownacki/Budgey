@@ -102,6 +102,32 @@ namespace Budgey.Infrastructure.Migrations
                     b.ToTable("ExpenseTag");
                 });
 
+            modelBuilder.Entity("Budgey.Domain.Model.Note", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShortContent")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Notes");
+                });
+
             modelBuilder.Entity("Budgey.Domain.Model.Tag", b =>
                 {
                     b.Property<int>("Id")
@@ -391,6 +417,15 @@ namespace Budgey.Infrastructure.Migrations
                     b.HasOne("Budgey.Domain.Model.Tag", "Tag")
                         .WithMany("ExpenseTags")
                         .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Budgey.Domain.Model.Note", b =>
+                {
+                    b.HasOne("Budgey.Domain.Model.User", "User")
+                        .WithMany("Notes")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

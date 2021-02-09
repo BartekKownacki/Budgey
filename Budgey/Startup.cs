@@ -12,6 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Budgey.Infrastructure;
+using Budgey.Domain.Interfaces;
+using Budgey.Infrastructure.Repositories;
+using Budgey.Application;
 
 namespace Budgey
 {
@@ -32,6 +35,14 @@ namespace Budgey
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<Context>();
+
+            services.AddTransient<INoteRepository, NoteRepository>();
+            services.AddTransient<IExpenseRepository, ExpenseRepository>();
+
+            services.AddApplication();
+/*            services.AddScoped<INoteRepository, NoteRepository>();
+            services.AddSingleton<INoteRepository, NoteRepository>();*/
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

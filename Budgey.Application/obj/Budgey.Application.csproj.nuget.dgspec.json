@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Application\\Budgey.Application.csproj": {}
+    "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Application\\Budgey.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Application\\Budgey.Application.csproj": {
+    "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Application\\Budgey.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Application\\Budgey.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Application\\Budgey.Application.csproj",
         "projectName": "Budgey.Application",
-        "projectPath": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Application\\Budgey.Application.csproj",
+        "projectPath": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Application\\Budgey.Application.csproj",
         "packagesPath": "C:\\Users\\bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Application\\obj\\",
+        "outputPath": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj": {
-                "projectPath": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj"
+              "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj": {
+                "projectPath": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj"
               }
             }
           }
@@ -45,6 +42,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,26 +68,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj": {
+    "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj",
         "projectName": "Budgey.Domain",
-        "projectPath": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj",
+        "projectPath": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj",
         "packagesPath": "C:\\Users\\bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\obj\\",
+        "outputPath": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -90,6 +94,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -101,6 +106,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -116,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

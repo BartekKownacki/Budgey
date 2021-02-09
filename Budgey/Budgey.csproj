@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Budgey.Application\Budgey.Application.csproj" />
     <ProjectReference Include="..\Budgey.Domain\Budgey.Domain.csproj" />
     <ProjectReference Include="..\Budgey.Infrastructure\Budgey.Infrastructure.csproj" />
   </ItemGroup>

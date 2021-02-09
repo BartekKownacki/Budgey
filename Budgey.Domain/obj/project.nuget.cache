@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ZaMNohIwspcn77XZeU6pxjq7ba0lrLnjY7dbkYSdasZpVx/bvVf441ZyNFYq9iH+cCeLxbHT1/aYMVDMYnn/Q==",
+  "dgSpecHash": "T1VeS86aP1aUNRfhMJ3QGB2Dpo51QpQgb3pahUvVB5TOeiEqtL2k9j4DVlq3upvRGLOnb+ceUgY+LLtwlcBKgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bartek\\Desktop\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj",
+  "projectFilePath": "C:\\Users\\bartek\\source\\repos\\Budgey\\Budgey.Domain\\Budgey.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
