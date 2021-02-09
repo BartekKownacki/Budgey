@@ -15,6 +15,9 @@ using Budgey.Infrastructure;
 using Budgey.Domain.Interfaces;
 using Budgey.Infrastructure.Repositories;
 using Budgey.Application;
+using Budgey.Application.Interfaces;
+using Budgey.Application.Services;
+using AutoMapper;
 
 namespace Budgey
 {
@@ -36,13 +39,10 @@ namespace Budgey
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<Context>();
 
-            services.AddTransient<INoteRepository, NoteRepository>();
-            services.AddTransient<IExpenseRepository, ExpenseRepository>();
-
+            services.AddInfrastructure();
             services.AddApplication();
-/*            services.AddScoped<INoteRepository, NoteRepository>();
-            services.AddSingleton<INoteRepository, NoteRepository>();*/
-
+            /*            services.AddScoped<INoteRepository, NoteRepository>();
+                        services.AddSingleton<INoteRepository, NoteRepository>();*/
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

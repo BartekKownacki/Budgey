@@ -19,10 +19,10 @@ namespace Budgey.Application.Services
             _noteRepository = noteRepository;
             _mapper = mapper;
         }
+
         public int AddNote(NewNoteVm note)
         {
-            
-            
+            throw new NotImplementedException();
         }
 
         public ListNotesForListVm GetAllNotesForList()

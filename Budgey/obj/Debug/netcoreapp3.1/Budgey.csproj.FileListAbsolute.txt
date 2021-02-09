@@ -868,3 +868,8 @@ C:\Users\bartek\source\repos\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.RazorT
 C:\Users\bartek\source\repos\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.Views.pdb
 C:\Users\bartek\source\repos\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.csproj.CopyComplete
 C:\Users\bartek\source\repos\Budgey\Budgey\obj\Debug\netcoreapp3.1\Budgey.genruntimeconfig.cache
+C:\Users\bartek\source\repos\Budgey\Budgey\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\bartek\source\repos\Budgey\Budgey\bin\Debug\netcoreapp3.1\Budgey.Application.dll
+C:\Users\bartek\source\repos\Budgey\Budgey\bin\Debug\netcoreapp3.1\Budgey.Application.pdb
+C:\Users\bartek\source\repos\Budgey\Budgey\obj\Debug\netcoreapp3.1\Razor\Views\Notes\Index.cshtml.g.cs
+C:\Users\bartek\source\repos\Budgey\Budgey\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Budgey.Application.Interfaces;
+using Budgey.Application.Services;
+using Budgey.Application.ViewModels.Notes;
 using Budgey.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +12,11 @@ namespace Budgey.Controllers
 {
     public class NotesController : Controller
     {
-        private readonly NoteService _noteService;
+        private readonly INoteService _noteService;
+        public NotesController(INoteService noteService)
+        {
+            _noteService = noteService;
+        }
         public IActionResult Index()
         {
             //utworzyć widok
@@ -18,7 +25,7 @@ namespace Budgey.Controllers
 
             //przygotowanie listy notatek 
 
-            var model = noteService.GetAllNotesForList();
+            var model = _noteService.GetAllNotesForList();
             return View(model);
         }
 
@@ -29,15 +36,15 @@ namespace Budgey.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddNote(NoteModel model)
+        public IActionResult AddNote(NewNoteVm model)
         {
-            var id = noteService.AddNote(model);
+            var id = _noteService.AddNote(model);
             return View();
         }
 
         public IActionResult ViewNote(int id)
         {
-            var model = noteService.GetNoteDetails(id);
+            var model = _noteService.GetNoteDetails(id);
             return View(model);
         }
     }
